@@ -4,60 +4,60 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
-
-Welcome to {}
-
-I can generate pyrogram and telethon string session . 
-Use the below button and go ahead !
-
-By @NotrealPranay
+مرحبًا {} مرحبًا بك في {} يمكنني
+إنشاء جلسة سلسلة pyrogram و telethon. استخدم الزر أدناه
+بواسطة: @aaaalqp
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("🔥 ابدا بانشاء الجلسة 🔥", callback_data="generate")],
+        [InlineKeyboardButton(text="• ࢪجـوع •", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🔥 ابدأ بانشاء الجلسة 🔥", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(" Give a Star ⭐", url="https://github.com/Pranay5463/String-Session-Generator_Bot")],
+        [InlineKeyboardButton("🔥 ابدأ بانشاء الجلسة 🔥", callback_data="generate")],
+        [InlineKeyboardButton(" • 𝗖𝗔𝗟𝗜𝗣𝗛  ›", url="https://t.me/aaaalqp")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("كيفية الاستعمال ❔", callback_data="help"),
+            InlineKeyboardButton("حول الـبوت 🚩", callback_data="about")
         ],
-        [InlineKeyboardButton(" Get Help ↗️", url="https://t.me/+9SetglBX6YY0OWRh")],
+        [InlineKeyboardButton(" الحصول على مساعده↗️", url="https://t.me/aaaalqp")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨ اوامر البوت ✨
 
-/about - About The Bot
-/help - To display current Message
-/start - Start the Bot
-/generate - Generate String Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - حول البوت 
+
+/help - المساعده
+
+/start - بدء البوت
+
+/generate - انشاء جلسة 
+
+/cancel - الغاء العمليه 
+
+/restart - اعادة تشغيل 
 """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+    ** حول هذا البوت**
 
-A telegram bot to generate pyrogram and telethon string session by @NotrealPranay
+روبوت تليجرام لإنشاء جلسة بيروجرام وسلسلة تيليثون بواسطة: @H_M_Dr
 
-Source Code : [Click Here](https://github.com/Pranay5463/String-Session-Generator_Bot)
+مقدم من : [اضغط هنا](https://t.me/aaaalqp)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+نطاق : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+لغة : [Python](www.python.org)
 
-Developer : @NotrealPranay
+المالك : @H_M_Dr
     """
